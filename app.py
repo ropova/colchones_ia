@@ -80,11 +80,11 @@ def main():
 
             # Mostrar la imagen correspondiente
             imagenes_colchones = {
-                0: 'static\images\muelles_biconicos.jpeg',
-                1: 'static\images\latex.jpg',
-                2: 'static\images\muelle_ensacado.jpg',
-                3: 'static\images\espumacion_hr.jpg',
-                4: 'static\images\hibrido.jpg'
+                0: 'static/images/muelles_biconicos.jpeg',
+                1: 'static/images/latex.jpg',
+                2: 'static/images/muelle_ensacado.jpg',
+                3: 'static/images/espumacion_hr.jpg',
+                4: 'static/images/hibrido.jpg'
             }
             
             image_path = imagenes_colchones.get(prediction)
