@@ -39,7 +39,7 @@ def main():
     st.title('Predicción de Tipo de Colchón')
 
     # Preguntas para el usuario
-    st.subheader('Por favor, ingrese las características del colchón:')
+    st.subheader('Por favor, selecciona las opciones de acuerdo a tus necesidades:')
     
     # Definir las opciones para cada característica
     firmeza_options = ['Suave', 'Media', 'Firme']
